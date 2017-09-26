@@ -117,27 +117,16 @@ pre code {
     border-color: grey;
 }
 
-.coder li>a:hover button.close {
-    visibility: visible;
-    opacity: .5;
-}
-
-.coder .tabs {
-    padding: 0;
-    border: 0;
-    margin: 0;
-}
-
 .coder .tabs>li {
     float: left;
     margin: 0;
 }
 
 .coder .tabs>li>a {
-    margin-right: 3px;
+    margin-right: 1px;
     line-height: 1.42857143;
     color: rgba(255, 255, 255, 0.61);
-    background-color: rgba(51, 51, 51, 0.73);
+    background-color: rgba(83, 83, 83, 0.73);
     border: 0;
     border-radius: 0;
 }
@@ -145,6 +134,7 @@ pre code {
 .coder .tabs>li.active>a,
 .coder .tabs>li.active>a:hover,
 .coder .tabs>li.active>a:focus {
+    margin: 0 3px;
     color: white;
     background-color: #333;
     border-bottom-color: transparent;
